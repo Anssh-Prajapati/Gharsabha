@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel='stylesheet' href="gnstyle.css">
+	    <title>Gharsabha</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class='container'>
+                <h3 class="logo">Gharsabha: Get Notified</h3>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="information.html">Information</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="">Get Notified</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
+        <div class="contact-title">
+            <h1>Enter Your Name and Email</h1>
+            <h2>You Will be Notified About Upcoming News</h2>
+        </div>
+        <center>
+            <div class="contact-form">
+                <form id='contact-form' method="post" action="contact-form-handler.php">
+                    <input name='name' type='text' class="form-control" placeholder="Your Name" required><br>
+                    <input name='email' type='email' class="form-control" placeholder="Your Email" required><br>
+                    <input type="submit" class='form-control submit' value='SUBMIT'>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>
