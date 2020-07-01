@@ -124,7 +124,9 @@ form .submit:hover {
     cursor: pointer;
 }
 
-
+.index-paragraph {
+    transition: all 2s ease-in-out;
+}
 
 
 
