@@ -1,6 +1,6 @@
 <?php
-    $name = $_Post['name'];
-    $visitor_email = $_Post['email'];
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
 
     $email_from = 'anssh.p6@gmail.com';
     $email_subject = 'Gharsabha Website: New Member in Get Notified Group';
