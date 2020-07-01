@@ -125,7 +125,8 @@ form .submit:hover {
 }
 
 .index-paragraph {
-    margin-top: 100px;
+    color: #55d6aa;
+    text-transform: capitalize;
     transition: all 2s ease-in-out;
 }
 
